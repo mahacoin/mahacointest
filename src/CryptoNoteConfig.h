@@ -94,13 +94,13 @@ namespace parameters {
   static_assert(0 < UPGRADE_VOTING_THRESHOLD && UPGRADE_VOTING_THRESHOLD <= 100, "Bad UPGRADE_VOTING_THRESHOLD");
   static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 
-  const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "intu-blocks.dat";
-  const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "intu-blockindexes.dat";
-  const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "intu-blockscache.dat";
-  const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "intu-poolstate.bin";
-  const char     P2P_NET_DATA_FILENAME[]                       = "intu-p2pstate.bin";
-  const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "intu-blockchainindices.dat";
-  const char     MINER_CONFIG_FILE_NAME[]                      = "intu-miner_conf.json";
+  const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "maha-blocks.dat";
+  const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "maha-blockindexes.dat";
+  const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "maha-blockscache.dat";
+  const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "maha-poolstate.bin";
+  const char     P2P_NET_DATA_FILENAME[]                       = "maha-p2pstate.bin";
+  const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "maha-blockchainindices.dat";
+  const char     MINER_CONFIG_FILE_NAME[]                      = "maha-miner_conf.json";
   } // parameters
 
   const uint64_t START_BLOCK_REWARD                            = (UINT64_C(10) * parameters::POINT);
